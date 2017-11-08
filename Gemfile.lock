@@ -1,0 +1,21 @@
+PATH
+  remote: .
+  specs:
+    reports (0.0.1)
+      wicked_pdf
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    wicked_pdf (1.1.0)
+    yard (0.9.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  reports!
+  yard
+
+BUNDLED WITH
+   1.16.0.pre.2
