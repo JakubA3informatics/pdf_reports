@@ -1,8 +1,8 @@
-# reports
+# PDF Reports
 
-##Description
+## Description
 
-This gem provides a simple and extremely flexible way to generate pdf files from cdisc changes results in Ruby applications. It works well with Rack based web applications, such as Ruby on Rails.
+This gem provides a simple and extremely flexible way to generate pdf reports in Ruby applications. It works well with Rack based web applications, such as Ruby on Rails.
 
 ## Getting Started
 
@@ -13,4 +13,18 @@ Reports::CdiscChangesReport.new.create(results, cls, current_user) render pdf: "
 'Landscape' end
 end
 ```
-Call body method from CdiscChangesReport to WickedCore and globle variable.
+Call body method from CdiscChangesReport to WickedCore and global variable.
+
+## How To Use It
+
+Add the gem to yours Gem file pointing to this repo:
+
+```ruby
+gem 'reports', :git =>'git@github.com:JakubA3informatics/pdf_reports.git'
+```
+
+The spinner effect during the generation is hold by the Gem itself but be sure to have under your **assets** the below dependencies:
+
+- bootstrap
+- font-awesome
+- jquery
