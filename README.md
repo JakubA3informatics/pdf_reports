@@ -26,7 +26,7 @@ gem 'reports', :git =>'git@github.com:JakubA3informatics/pdf_reports.git'
 Then run:
 
 ```
-bundle installb
+bundle install
 ```
 
 The spinner effect during the generation is hold by the Gem itself but be sure to have under your **assets** the below dependencies:
