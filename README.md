@@ -23,6 +23,12 @@ Add the gem to yours Gem file pointing to this repo:
 gem 'reports', :git =>'git@github.com:JakubA3informatics/pdf_reports.git'
 ```
 
+Then run:
+
+```
+bundle installb
+```
+
 The spinner effect during the generation is hold by the Gem itself but be sure to have under your **assets** the below dependencies:
 
 - bootstrap
